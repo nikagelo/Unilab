@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f8f9;
+  color: #fff;
+  padding: 19px;
+}
+
+/* Style the left part of the navigation bar (logo) */
+.logoDiv {
+  margin-right: auto;
+}
+
+/* Style the center part of the navigation bar (links/topics) */
+.topicsWrapper ul {
+  list-style: none;
+  display: flex;
+}
+
+.topicsWrapper li {
+  margin: 0 12px;
+}
+
+.topicsWrapper a {
+  font-size: 11px;
+  color: #3436387f;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Helvetica";
+  transition: 500ms;
+}
+
+.topicsWrapper a:hover {
+  color: black;
+}
+
+/* Style the right part of the navigation bar (user picture) */
+.userIcon {
+  display: flex;
+  align-items: center;
+}
+.userIcon > img {
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+}

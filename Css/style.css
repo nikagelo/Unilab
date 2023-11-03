@@ -1,9 +1,11 @@
+body {
+  background-color: #f6f8f9;
+}
 /* Navigation Styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f6f8f9;
   color: #fff;
   padding: 19px;
 }
@@ -47,16 +49,16 @@ nav {
 /*End of Navigation Styles */
 /* More News Section Styles */
 .moreNewsSection {
+  background-color: #ffffff;
   display: flex;
+  justify-content: space-between;
 }
 .worldNewsWrapper {
-  display: flex;
-  align-items: center;
-  width: 60%;
+  width: 55%;
   background-image: url(../Images/Image.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 600px;
+  height: 560px;
 }
 .divider {
   background-color: #fff;
@@ -66,6 +68,7 @@ nav {
   margin-bottom: 40px;
 }
 .infoWrapper {
+  margin: 15% 0;
   padding-left: 10%;
   width: 60%;
 }
@@ -102,6 +105,15 @@ nav {
   font-family: "Helvetica";
   color: #202124;
 }
+.arrowDiv {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.arrowDiv > img:hover {
+  color: black;
+}
 .frontArrow {
   transform: rotate(180deg);
 }
@@ -134,4 +146,7 @@ nav {
 .moreNewsTitleAndArrows {
   display: flex;
   justify-content: space-between;
+}
+.moreNewsInfo {
+  width: 90%;
 }

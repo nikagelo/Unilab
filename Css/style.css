@@ -1,3 +1,4 @@
+/* Navigation Styles */
 nav {
   display: flex;
   justify-content: space-between;
@@ -7,12 +8,10 @@ nav {
   padding: 19px;
 }
 
-/* Style the left part of the navigation bar (logo) */
 .logoDiv {
   margin-right: auto;
 }
 
-/* Style the center part of the navigation bar (links/topics) */
 .topicsWrapper ul {
   list-style: none;
   display: flex;
@@ -35,13 +34,104 @@ nav {
   color: black;
 }
 
-/* Style the right part of the navigation bar (user picture) */
 .userIcon {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .userIcon > img {
   width: 30px;
   height: 30px;
   margin-left: 40px;
+}
+/*End of Navigation Styles */
+/* More News Section Styles */
+.moreNewsSection {
+  display: flex;
+}
+.worldNewsWrapper {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  background-image: url(../Images/Image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+}
+.divider {
+  background-color: #fff;
+  height: 2px;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.infoWrapper {
+  padding-left: 10%;
+  width: 60%;
+}
+.infoWrapper > h3,
+.infoWrapper > p,
+.infoWrapper > button {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: bold;
+}
+.infoWrapper > p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 26px;
+}
+.infoWrapper > button {
+  font-size: 11px;
+  padding: 16px 30px;
+  background-color: #fa6980;
+  border: none;
+  border-radius: 6px;
+}
+.moreNewsTitleAndArrows {
+  border-bottom: 2px solid #ebeded;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.moreNewsTitleAndArrows > h3 {
+  font-size: 24px;
+  font-family: "Helvetica";
+  color: #202124;
+}
+.frontArrow {
+  transform: rotate(180deg);
+}
+.moreInfoArticle {
+  margin-bottom: 40px;
+}
+.moreInfoArticle > .tag,
+.moreInfoArticle > .title,
+.moreInfoArticle > .txt,
+.moreInfoDate > span {
+  font-size: 16px;
+  color: #fa6980;
+  font-weight: bold;
+  font-family: "Helvetica";
+}
+.moreInfoArticle > .tag {
+  margin-bottom: 10px;
+}
+.moreInfoArticle > .title {
+  color: #202124;
+}
+.moreInfoArticle > .txt {
+  color: #a6adb4;
+  margin: 10px 0;
+}
+.moreInfoDate > span {
+  font-size: 13px;
+  color: #a6adb4;
+}
+.moreNewsTitleAndArrows {
+  display: flex;
+  justify-content: space-between;
 }
